@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 102, 255, 0.76);
+  border: solid 1px black;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 2rem auto;
+  height: 600px;
+  width: 700px;
+  padding: 1rem;
+}
+
+.slot {
+  width: 90px;
+  height: 90px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.reset {
+  width: 10vw;
+  height: 5vh;
+  background-color: goldenrod;
+  border: solid 1px black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.player-turn {
+  text-align: center;
+}
